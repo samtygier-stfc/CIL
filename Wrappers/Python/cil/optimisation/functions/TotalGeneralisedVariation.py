@@ -77,7 +77,7 @@ class TotalGeneralisedVariation(Function):
         
         if not hasattr(self, 'domain'):
             
-            # try to get geometry (sirf)
+            # sirf "geometry"
             try:
                 self.domain = x.geometry
             except:
